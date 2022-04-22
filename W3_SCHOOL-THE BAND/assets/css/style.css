@@ -1,0 +1,204 @@
+/* RESET css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* -----------------Trước khi code
+1.Vị trí
+2.kích thước
+3.Màu sắc
+4.Kiểu dáng : kiểu chữ, hình tròn vuông...
+*/
+
+/* --------------------Cách code
+1.Từ trên xuống dưới
+2. Từ ngoài vào trong
+3. Từ tổng quan đến chi tiết
+
+*/
+#wrapper{
+
+}
+/* -----------------HEADER------------------- */
+#header{
+ height:46px;
+ background-color: black;
+ position: fixed;
+ z-index: 1;
+ top:0;
+ right:0;
+ left:0;
+
+}
+
+#nav, .subnav{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#nav > li{
+    display: inline-block;
+}
+
+#nav li{
+    
+    position: relative;
+}
+
+#nav li:hover   {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+#nav > li > a{
+    color:white;
+    text-transform: uppercase;
+    line-height: 46px;
+}
+
+#nav li a{
+    text-decoration: none;
+    padding: 0 24px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+#nav .subnav{
+    display: none;
+    min-width: 160px;
+    position: absolute ;
+    top: 100%; left:0;
+    background-color: white;
+    box-shadow:0 0 10px #444;
+}
+
+#nav  li:hover .subnav{
+    display: block;
+} 
+
+#nav .subnav a{
+    color: black;
+    padding: 0 16px;
+    line-height: 38px;
+}
+
+#nav .more-arrow{
+    font-size: 10px;
+
+}
+
+#header .search-button{
+    float: right;
+    cursor: pointer;
+}
+
+#header .search-button:hover{
+    background-color: red;
+    
+}
+#header .search-icon{
+    font-size: 20px;
+    color: white;
+    line-height: 46px;
+    padding: 0 20px;
+
+}
+
+
+
+/* ------------------SLIDER------------------- */
+#slider{
+    position: relative;
+    z-index: 0;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(/assets/img/slider.jpg) top center / cover no-repeat;
+}
+
+.slider-heading{
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.slider-content{
+    margin-top: 25px;
+}
+
+
+/* --------------------CONTENT------------------- */
+
+#content{
+
+}
+
+#content .content-section{
+    width: 800px;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.content-header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+.content-subheader{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    color: rgba(100, 100, 100, 0.7);
+}
+
+
+#band{
+
+}
+#band-content{
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000;
+    
+
+}
+#content .team{
+    margin-top: 100px;
+    overflow: hidden;
+}
+#content .team .member{
+    float: left;
+    width: calc(100%/3);
+    text-align: center;
+}
+#content h3.member-name{
+    
+    font-size: 10px;
+}
+#content .member-img
+{
+    width: 165px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+#tour{
+
+}
+
+#contact{
+
+}
+
+
+
+#footer{
+
+}
