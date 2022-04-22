@@ -1,4 +1,4 @@
-/* RESET css */
+ /* RESET css */
 *{
     padding: 0;
     margin: 0;
@@ -19,6 +19,9 @@
 */
 .text-white{
     color: white!important;
+}
+.clear{
+    clear:both;
 }
 /* -----------------HEADER------------------- */
 #header{
@@ -231,33 +234,52 @@
     border-radius: 50%;
 }
 
-.tour-location-list{
-
+.tour-location-lists{
+    margin: 0 -8px;
+    padding-bottom: 45px;
 }
 .tour-location{
     width: calc(100%/3);
     float: left;
+    padding: 0 8px;
+   
 }
 
 .location-detail{
-
+    background-color: white;
+    padding: 16px;
+    font-size: 15px;
 }
-
 .place-img{
     width: 100%;
+    display: block;
+    
 }
-
+.place-img:hover{
+    opacity: 0.6;
+}
 .location-heading{
 
 }
 .location-time{
-
+    margin: 16px 0;
+    opacity: 0.8;
 }
 .location-desc{
-
+   margin-bottom: 15px;
 }
 .buy{
+    padding: 5px 9px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    
+}
 
+.buy:hover{
+    color: #000;
+    background-color: #ccc;
 }
 
 
