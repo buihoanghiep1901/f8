@@ -17,8 +17,8 @@
 3. Từ tổng quan đến chi tiết
 
 */
-#wrapper{
-
+.text-white{
+    color: white!important;
 }
 /* -----------------HEADER------------------- */
 #header{
@@ -113,7 +113,7 @@
     z-index: 0;
     margin-top: 46px;
     padding-top: 50%;
-    background: url(/assets/img/slider.jpg) top center / cover no-repeat;
+    background: url(/W3_SCHOOL-THE_BAND/assets/img/slider.jpg) top center / cover no-repeat;
 }
 
 .slider-heading{
@@ -156,7 +156,7 @@
     color: rgba(100, 100, 100, 0.7);
 }
 
-
+/* -------------- Band----- */
 #band{
 
 }
@@ -188,11 +188,82 @@
     border-radius: 4px;
     margin-top: 15px;
 }
-
+/* -----------TOUR------------ */
 #tour{
 
 }
 
+.tour-section{
+    background-color: black;
+}
+
+.book-list{
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 25px;
+
+}
+
+.book-list .book-item{
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+    list-style: none;
+}
+
+.book-list .sold-out{
+    background-color: #f44336;
+    color: white;
+    padding: 2px 5px;
+    margin-left: 20px;
+}
+
+.book-list .ticket-numbers{
+    float: right;
+    color: white;
+    width: 24px;
+    height: 24px;
+    margin-top: -2px;
+    background-color: #000;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+}
+
+.tour-location-list{
+
+}
+.tour-location{
+    width: calc(100%/3);
+    float: left;
+}
+
+.location-detail{
+
+}
+
+.place-img{
+    width: 100%;
+}
+
+.location-heading{
+
+}
+.location-time{
+
+}
+.location-desc{
+
+}
+.buy{
+
+}
+
+
+
+
+/* -----------CONTACT---------- */
 #contact{
 
 }
