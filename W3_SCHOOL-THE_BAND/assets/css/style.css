@@ -31,10 +31,21 @@
     
 }
 
+.row::after{
+    content:"";
+    display: block;
+    clear: both;
+
+}
+
 .col{
     float: left;
     padding-left: 8px ;
     padding-right: 8px ;
+}
+
+.col-1{
+    width: 100%;
 }
 
 .col-2{
@@ -380,10 +391,8 @@ col-4{
 }
 
 /* -----------CONTACT---------- */
-#contact{
 
-}
-.contact .icon{
+.contact-info .icon{
     margin-right: 20px;
 }
 
@@ -396,18 +405,47 @@ col-4{
     line-height: 1.7;
 }
 
-.contact-content .row input{
+.form-control{
     padding: 10px;
     border: 1px #ccc solid;
-    border-radius: 5px;
+    width: 100%;
     
 }
 
-
-input#message{
-    width: 100%;
+.send-message{
+    background-color: #000;
+    color: white;
+    margin-top: 25px;
+    float: right;
+    border-style: none;
+    width: 75px;
+    height: 40px;
+}
+.send-message:hover{
+    opacity: 0.7;
 }
 
-#footer{
+#message{
+    margin-top: 8px;
+}
 
+
+/* ---------------------------------FOOTER------------------------------------ */
+.map img{
+    width: 100%;
+    height: auto;
+}
+.social-links{
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+}
+.social-links a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#footer p{
+    color: #444;
+    margin-bottom: 100px;
 }
