@@ -61,22 +61,22 @@
                 <p id="band-content">
                     We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                
-                <div class="team">
-                    <div class="member">
+                 
+                <div class=" team row" >
+                    <div class=" col col-3 text-center">
                         <h3 class="member-name">NAME</h3>
                         <img src="./assets/img/bandmember.jpg" alt="photos of menber" class="member-img">
                     
                     
                     </div>
                     
-                    <div class="member">
+                    <div class="text-center col col-3">
                         <h3 class="member-name">NAME</h3>
                         <img src="./assets/img/bandmember.jpg" alt="photos of menber" class="member-img">
                     
                     </div>
                     
-                    <div class="member">
+                    <div class="text-center col col-3">
                         <h3 class="member-name">NAME</h3>
                         <img src="./assets/img/bandmember.jpg" alt="photos of menber" class="member-img">
                     </div>
@@ -98,8 +98,8 @@
                         <li class="book-item">December <span class="ticket-numbers">3</span></li>
                     </ul>
                     
-                    <div class="tour-location-lists">
-                        <div class="tour-location">
+                    <div class="tour-location-lists row">   
+                        <div class="col col-3">
                             <img src="./assets/img/newyork.jpg" alt="New York" class="place-img"> 
                             <div class="location-detail">
                                 <h4 class="location-heading">NEW YORK</h4>
@@ -109,7 +109,7 @@
 
                         </div>
 
-                        <div class="tour-location">
+                        <div class="col col-3">
                             <img src="./assets/img/paris.jpg" alt="Paris" class="place-img"> 
                             <div class="location-detail">
                                 <h4 class="location-heading">PARIS</h4>
@@ -119,7 +119,7 @@
 
                         </div> 
 
-                        <div class="tour-location">
+                        <div class="col col-3">
                             <img src="./assets/img/sanfran.jpg" alt="San Francisco" class="place-img"> 
                             <div class="location-detail">
                                 <h4 class="location-heading">San FranciscoK</h4>
@@ -139,7 +139,41 @@
             <div id="contact" class="content-section">
                 <h2 class="content-header">CONTACT</h2>
                 <p class="content-subheader">Fan? Drop a note!</p>
-                
+                <div class="row contact-content">
+                    <div class="col col-2">
+                        <p class="contact-info">
+                            <i class="ti-map-alt icon"></i>Chicago, US
+                        </p>
+                        
+                        <p class="contact-info">
+                            <i class="ti-mobile icon"></i>Phone: +00 151515
+                        </p>
+                        
+                        <p class="contact-info">
+                            <i class="ti-email icon"></i>Email: mail@mail.com
+                        </p>
+                    </div>
+                    
+                    <div class="col col-2">
+                        <div class="row">
+                            <label for="name" >
+                                <input type="text" id="name" placeholder="Name">
+                            </label>
+    
+                            <label for="email" >
+                                <input type="email" id="email" placeholder="Email">
+                            </label>
+                        </div>
+
+                        <div class="row">
+                            <label for="message" >
+                                <input type="text" id="message" placeholder="Message">
+                            </label>
+                        </div>
+
+                        <button class="send-message" type="submit">SEND</button>
+                    </div>
+                </div>
             </div>
             
         </div>
@@ -148,7 +182,7 @@
 
         </div>
 
-        <div class="model open">
+        <div class="model">
             <div class="model-container">
                 
                 <i class="ti-close js-close"></i>
