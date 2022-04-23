@@ -116,7 +116,7 @@
     z-index: 0;
     margin-top: 46px;
     padding-top: 50%;
-    background: url(/W3_SCHOOL-THE_BAND/assets/img/slider.jpg) top center / cover no-repeat;
+    background: url(/assets/img/slider.jpg) top center / cover no-repeat;
 }
 
 .slider-heading{
@@ -273,8 +273,88 @@
     background-color: #ccc;
 }
 
+.model{
+    position:fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0,0, 0.7);
+    display: none;
+    
+}
 
+.model.open{
+    display: flex;
+}
 
+.model-container{
+    background-color: white;
+    width: 900px;
+    min-height: 475px;
+    position: relative;
+    
+
+}
+
+.model-container header{
+    width: 100%;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+    background-color: #009688;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.model-container .ti-close{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 42px;
+    height: 42px;
+    line-height: 42px; text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.model-body #pay-order:hover,
+.model-container .ti-close:hover{
+    background-color: #ccc;
+    color:black;
+}
+.model-container .model-body{
+    padding: 16px;
+}
+.label{
+    display: block;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.input{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px ;
+}
+
+.model-footer{
+    text-align: right;
+    padding: 16px;
+    color: #2196f3;
+}
+.model-body #pay-order{
+    width: 100%;
+    height: 45px;
+    background-color: #009688;
+    color: white;
+    border-style: none;
+}
 
 /* -----------CONTACT---------- */
 #contact{
