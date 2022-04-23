@@ -151,7 +151,7 @@
         <div class="model open">
             <div class="model-container">
                 
-                <i class="ti-close"></i>
+                <i class="ti-close js-close"></i>
                 
                 <header class="model-header">
                     <i class="ti-bag"></i>
@@ -164,7 +164,7 @@
                         <i class="ti-shopping-cart"></i>
                         Tickets, $15 per person
                     </label>
-                    <input type="number" id="ticket-order-numbers" class="input placeholder="How many?">
+                    <input type="number" id="ticket-order-numbers" class="input" placeholder="How many?">
 
                     
                     <label for="email" class="label" >
@@ -187,6 +187,21 @@
     </div>
     <script>
         const buyBtns=document.querySelectorAll('.js-click');
+        const model=document.querySelector('.model')
+        const close=document.querySelector('.js-close')
+        function showOrder() {
+            model.classList.add('open')
+            
+        }
+
+        function closeOrder() {
+            model.classList.remove('open')
+        }
+
+        for(const buyBtn of buyBtns){
+            buyBtn.addEventListener('click', showOrder)
+        }
+        close.addEventListener('click', closeOrder)
 
     </script>
 </body>

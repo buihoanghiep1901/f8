@@ -16,13 +16,19 @@
 2. Từ ngoài vào trong
 3. Từ tổng quan đến chi tiết
 
-*/
+/* ------   common-------- */
+
 .text-white{
     color: white!important;
 }
 .clear{
     clear:both;
 }
+
+
+
+
+
 /* -----------------HEADER------------------- */
 #header{
  height:46px;
@@ -265,7 +271,7 @@
     color: white;
     text-decoration: none;
     display: inline-block;
-    
+    border-style: none;
 }
 
 .buy:hover{
