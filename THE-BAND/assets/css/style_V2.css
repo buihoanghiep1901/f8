@@ -46,10 +46,106 @@
     width: 25%;
 }
 /* ------------------HEADER------------------- */
+#header{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: 46px;
+}
 
+.nav{
+    display: inline-block;
+}
+
+.navbar-item{
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-item:hover   {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+.navbar-item a{
+    text-align: center;
+    padding: 0 24px;
+}
+
+.navbar-item > a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;  
+    line-height: 46px;
+}
+
+.more-arrow{
+    font-size: 10px;
+}
+/* sub nav */
+.subnav{
+    display: none;
+    list-style: none;
+    box-shadow: 0 0 10px #ccc;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+}
+
+.subnav-item {
+   height: 38px;
+}
+
+.subnav-item a{
+    line-height: 38px;
+    padding: 0 16px;
+}
+
+.nav .navbar-item:hover .subnav{
+    display: block;
+}
+
+.subnav-item:hover{
+    background-color: #ccc;
+    color:black;
+}
+/* search button */
+.search{
+    position: absolute;
+    top:0;
+    right:0; 
+    width: 56px;
+    height: 46px;
+}
+
+.search .search-icon{
+    text-align: center;
+    line-height: 46px;
+    color: white;
+    font-size: 20px;
+    padding: 0 20px;
+
+}
+.search:hover{
+    background-color: red;
+    color: #000;
+    cursor: pointer;
+}
 
 /* -----------------SLIDER-------------------- */
-
+#slider{
+    position: relative;
+    z-index: 0;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(/THE-BAND/assets/img/slider.jpg) top center / cover no-repeat ;
+}
 
 /* -----------------CONTENT------------------- */
     /* -------BAND-------- */
