@@ -1,0 +1,65 @@
+/* RESET CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* -----------------COMMON------------------- */
+.text-white{
+    color: white !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.col{
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+}
+
+.col-1{
+    width: 100%;
+}
+
+.col-2{
+    width: 50%;
+}
+
+.col-3{
+    width: 33.3333333333333%;
+}
+
+.col-4{
+    width: 25%;
+}
+/* ------------------HEADER------------------- */
+
+
+/* -----------------SLIDER-------------------- */
+
+
+/* -----------------CONTENT------------------- */
+    /* -------BAND-------- */
+
+
+    /* -------TOUR-------- */
+
+
+    /* -------CONTACT----- */
+
+
+    
+/* -----------------FOOTER--------------------- */
