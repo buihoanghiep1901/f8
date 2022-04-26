@@ -161,14 +161,274 @@
 }
 
 /* -----------------CONTENT------------------- */
-    /* -------BAND-------- */
+.content-section{
+    width: 800px;
+    padding: 64px 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.content-header{
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.content-subheader{
+    text-align: center;
+    color: rgba(100, 100, 100, 0.7);
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+    /* -------BAND-------- */
+.band-content{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.team{
+    margin-top: 75px;
+}
+
+.name-of-member{
+    font-size: 15px;
+}
+
+.member-img{
+    margin-top: 15px;
+    border-radius: 4px;
+    width: 180px;
+}
 
     /* -------TOUR-------- */
+.tour-background{
+    background-color: #000;
+}
+#tour h2{
+    color: white;
+}
+    /* BOOK LIST */
+.book-list{
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.book-item{
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+    list-style: none;
+    font-size: 15px;
+}
+
+.book-list .sold-out{
+    background-color: red;
+    padding: 2px 5px;
+    color: white;
+    margin-left: 20px;
+}
+
+.book-list .ticket-numbers{
+    float: right;
+    background-color: #000;
+    color: white;
+    width: 24px ;
+    height: 24px;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+}
+    /* PLACE LIST */
+.place-list{
+    padding-bottom: 45px;
+}
+
+.place-detail{
+    background-color: white;
+    padding: 16px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.place-header, .place-time, .place-desc{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.place-time{
+    opacity: 0.5;
+}
+
+.place-img{
+    width: 100%; 
+}
+
+.buy{
+    background-color: #000;
+    border-style: none;
+    color: white;
+    font-size: 15px;
+    padding: 8px 16px;
+}
+
+.buy:hover{
+    opacity: 0.6;
+}
+/* MODEL FOR ORDER-FORM */
+.js-model{
+    position: fixed;   
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0,0, 0.7);
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.js-model.js-open{
+    display: flex;
+}
+.model-container{
+    width: 900px;
+    background-color: white;
+    min-height: 475px;
+    position: relative;
+}
+
+.pay-order,.model-header{
+    background-color:#009688 ;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.close-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    color: white;
+}
+
+.close-icon:hover{
+    cursor: pointer;
+    background-color: #ccc;
+    opacity: 0.7;
+    color: #000;
+
+}
+
+.model-main{
+    padding: 16px;
+}
+
+.model-label{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.model-input{
+    width: 100%;
+    padding: 8px;
+    border: 1px #ccc solid;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+#pay-order{
+    width: 100%;
+    height: 45px;
+    background-color: #009688;
+    color: white;
+    border-style: none; 
+}
+
+.model-footer{
+    text-align: right;
+}
+
+.model-footer p{
+    padding: 16px;
+}
 
 
     /* -------CONTACT----- */
+.contact-container{
+    margin-top: 48px;
+}
+
+.contact-info{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.contact-info .icon{
+    margin-right: 30px;
+}
+
+.contact-input{
+    
+    padding: 8px 8px;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+
+}
+
+#message{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.send-message{
+    background-color: #000;
+    color: white;
+    margin-top: 25px;
+    float: right;
+    border-style: none;
+    width: 80px;
+    height: 40px;  
+}
+
+.send-message:hover{
+    opacity: 0.7;
+}
 
 
     
 /* -----------------FOOTER--------------------- */
+.map{
+    width: 100%;
+    height: auto;
+}
+
+.social-links{
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+}
+.social-links a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#footer p{
+    color: #444;
+    margin-bottom: 70px;
+}
