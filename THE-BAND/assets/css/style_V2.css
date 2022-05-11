@@ -118,6 +118,11 @@
     color:black;
 }
 /* search button */
+.view{
+    display: none;
+}
+
+.view,
 .search{
     position: absolute;
     top:0;
@@ -126,6 +131,7 @@
     height: 46px;
 }
 
+.view .view-icon,
 .search .search-icon{
     text-align: center;
     line-height: 46px;
@@ -134,12 +140,18 @@
     padding: 0 20px;
 
 }
+
 .search:hover{
     background-color: red;
     color: #000;
     cursor: pointer;
 }
 
+.view:hover{
+    background-color: #757575;
+    color: #000;
+    cursor: pointer;
+}
 /* -----------------SLIDER-------------------- */
 #slider{
     position: relative;
@@ -163,6 +175,7 @@
 /* -----------------CONTENT------------------- */
 .content-section{
     width: 800px;
+    max-width: 100%;
     padding: 64px 16px;
     margin-left: auto;
     margin-right: auto;
@@ -413,7 +426,7 @@
 
     
 /* -----------------FOOTER--------------------- */
-.map{
+.map-img{
     width: 100%;
     height: auto;
 }
