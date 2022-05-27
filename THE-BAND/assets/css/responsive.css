@@ -33,6 +33,15 @@
     .view{
         display: block;
     }
+
+    .s-col-ful{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .member-img{
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 740px) and (max-width:1023px) {
